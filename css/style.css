@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.96);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 100;
+}
+
+iframe {
+    border-radius: 1em;
+    border: 3px solid #AC011B;
+}
+
+h1 {
+    -webkit-text-stroke: 0.1px #000;
+    color: #ffffff;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+    -webkit-text-stroke: 0.1px #000;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+a {
+    font-size: 20px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 1em;
+    margin-top: 1em;
+    color: rgb(255, 255, 255);
+    background: #AC011B;
+    border: none;
+    cursor: pointer;
+}
+
+/*Formatação de Topo*/
+.partesuperior {
+    width: calc(100vw-10px);
+    height: 75vh;
+    text-align: center;
+    background: url(../img/walltop.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Formatação de conteudo*/
+
+.trailer {
+    text-align: center;
+}
+
+.conteudo h2 {
+    letter-spacing: 10px;
+}
+
+.conteudo {
+
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    letter-spacing: 2px;
+    max-width: 100%;
+}
+
+.conteudo img {
+    width: 200px;
+    height: 230px;
+    border: 2px solid #bb0c03;
+    margin: 1em 0 0 1em;
+}
+
+.tituloparagrafo {
+    color: #bb0c03;
+}
+
+.imagemfixeddepassagem {
+    background: url(../img/imagemfundo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 25em;
+}
+
+#resumo {
+    text-align: justify;
+}
+
+/* Formatação de cabeçalho */
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+    background-color: #bb0c03;
+}
+
+
+
+

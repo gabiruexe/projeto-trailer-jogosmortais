@@ -1,0 +1,19 @@
+@media (max-width:867px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width:817px) {
+
+    iframe {
+        width: 80%;
+        height: 20em;
+    }
+}
+
+@media (min-width:1150px) {
+    .conteudo h2 {
+        font-size: 3em;
+    }
+}
